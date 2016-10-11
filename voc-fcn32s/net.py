@@ -19,7 +19,7 @@ def fcn(split):
         pydata_params['sbdd_dir'] = '../data/sbdd/dataset'
         pylayer = 'SBDDSegDataLayer'
     else:
-        pydata_params['voc_dir'] = '../data/pascal/VOC2011'
+        pydata_params['voc_dir'] = '../data/pascal/VOC2012'
         pylayer = 'VOCSegDataLayer'
     n.data, n.label = L.Python(module='voc_layers', layer=pylayer,
             ntop=2, param_str=str(pydata_params))
