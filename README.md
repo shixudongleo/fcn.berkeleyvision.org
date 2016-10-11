@@ -1,5 +1,14 @@
 # Fully Convolutional Networks for Semantic Segmentation
 
+### Train voc-fcn32s
+* data preparation pascal voc and SDBB data
+* download vgg 16 pre-train model to directory ilsvrc
+* convert vgg FC layer to Convolution layer
+* run with
+```
+$python solve.py
+```
+
 This is the reference implementation of the models and code for the fully convolutional networks (FCNs) in the [PAMI FCN](https://arxiv.org/abs/1605.06211) and [CVPR FCN](http://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Long_Fully_Convolutional_Networks_2015_CVPR_paper.html) papers:
 
     Fully Convolutional Models for Semantic Segmentation

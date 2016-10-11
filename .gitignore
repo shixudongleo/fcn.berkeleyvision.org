@@ -1,0 +1,5 @@
+data/pascal/VOC2012/*
+data/sbdd/*
+ilsvrc-nets/VGG_ILSVRC_16_layers_deploy.prototxt
+ilsvrc-nets/*.caffemodel
+*.pyc
